@@ -1,10 +1,12 @@
 h1 {
     color: red;
+    font-size: 50px;
 }
 
 ul {
 
     color: green;
+    font-size: 30px;
 }
 
 ol {
