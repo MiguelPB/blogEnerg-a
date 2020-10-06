@@ -1,0 +1,18 @@
+p {
+    color: rgb(19, 145, 15);
+    font-size: 20px;
+}
+
+/* class */
+.parrafo {
+
+    color: mediumorchid;
+    font-size: 30px;
+}
+
+/* ID */
+#texto {
+
+    color: midnightblue;
+    font-size: 50px;
+}
