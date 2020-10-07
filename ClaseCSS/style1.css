@@ -1,0 +1,30 @@
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: chocolate;
+}
+
+p {
+    color: deeppink;
+}
+
+figcaption {
+    color: rgb(12, 164, 184);
+}
+
+h4 {
+    color: green;
+}
+
+ul {
+    color: blue;
+}
+
+/* class */
+.parrafo {
+
+    color: rgb(83, 10, 25);
+}
+
