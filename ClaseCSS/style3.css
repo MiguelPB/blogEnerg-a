@@ -15,3 +15,14 @@
     text-decoration: none;
     background-color: tomato;
 }
+.main-nav__item a:hover {
+    color: orchid;
+}
+.main-nav__item a:active {
+
+    color: purple;
+    }
+
+    .main-nav__item a::after {
+        content: " | " ;
+    }
