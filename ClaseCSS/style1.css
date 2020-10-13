@@ -1,0 +1,16 @@
+.main-nav {
+    list-style: none;
+}
+
+h4 {
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(14, 206, 14);
+    line-height: 70%;
+}
+body {
+    background-color: rgb(190, 252, 190);
+}
