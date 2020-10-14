@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     color: blueviolet;
 }
@@ -28,3 +29,28 @@ ul {
     color: rgb(83, 10, 25);
 }
 
+=======
+h4 {
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(14, 206, 14);
+    line-height: 70%;
+}
+body {
+    background-color: rgb(190, 252, 190);
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 40px;
+}
+figcaption {
+    color: green;
+}
+>>>>>>> 6bcb8e57f64f7cfa0c072d30c78c7132d1914c5a
