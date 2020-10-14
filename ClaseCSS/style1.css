@@ -1,37 +1,6 @@
-<<<<<<< HEAD
-h1 {
-    color: blueviolet;
-}
-
-h2 {
-    color: chocolate;
-}
-
-p {
-    color: deeppink;
-}
-
-figcaption {
-    color: rgb(12, 164, 184);
-}
-
-h4 {
-    color: green;
-}
-
-ul {
-    color: blue;
-}
-
-/* class */
-.parrafo {
-
-    color: rgb(83, 10, 25);
-}
-
-=======
 h4 {
     margin-left: 40px;
+    color: green;
 }
 
 h1 {
@@ -45,12 +14,39 @@ body {
 
 h2 {
     margin-left: 40px;
+    color: green;
 }
 
 p {
     margin-left: 40px;
 }
+
 figcaption {
     color: green;
+    font-size: 80%;
 }
->>>>>>> 6bcb8e57f64f7cfa0c072d30c78c7132d1914c5a
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+   
+}
+
+.main-nav__item a:hover {
+    color: hotpink;
+    
+}
+
+.parrafo a:hover {
+    color: hotpink;
+}
+
+.main-nav__item a::after {
+    content: " | ";
+}
