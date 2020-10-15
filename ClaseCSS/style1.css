@@ -50,3 +50,7 @@ figcaption {
 .main-nav__item a::after {
     content: " | ";
 }
+
+main {
+    width: 100%;
+}
