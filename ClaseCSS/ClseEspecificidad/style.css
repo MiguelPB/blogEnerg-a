@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: purple;  
+    font-family: 'Times New Roman', Times, serif;/*tercera opción*/
+    margin-bottom: 10px;
+}
+#page-title {
+    font-family: cursive;/*primera opción*/
+}
+.title {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;/*segunda opción*/
+}
+
+#main-nav{
+    margin-top: 10 px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: white;
+    background-color: #13a4a1;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#main-nav .blog {
+    background-color: red;
+}
