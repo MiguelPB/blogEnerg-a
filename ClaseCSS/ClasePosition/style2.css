@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+    
+    section{
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    figure{
+    background-color: slateblue;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    h2{
+    background-color: seagreen;
+    text-align: center;
+    padding: 1.6rem;
+    width: 40%;
+    border-radius: 4px;
+    top: 2rem;
+    position: relative;
+    margin: 0 auto;
+    }
+    
+    p{
+    background-color: skyblue;
+    text-align:center;
+    padding: 1.7rem;
+    border-radius: 4px;
+    margin: 0 auto;
+    top: 1.8rem;
+    position: relative;
+    width: 90%;
+    }

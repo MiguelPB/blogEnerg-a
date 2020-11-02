@@ -1,33 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 2rem;
+    background-color: rgb(190, 252, 190);
+}
+
+
+
 h4 {
-    margin-left: 40px;
     color: green;
+
 }
 
 h1 {
+    margin: 3rem;
     text-align: center;
     color: rgb(14, 206, 14);
     line-height: 70%;
 }
-body {
-    background-color: rgb(190, 252, 190);
-}
 
 h2 {
-    margin-left: 40px;
+
     color: green;
 }
 
 p {
-    margin-left: 40px;
+    text-align: center;
 }
 
 figcaption {
     color: green;
     font-size: 80%;
 }
+.main-nav {
+    padding: 1rem;
+    
+}
 
 .main-nav__item {
     display: inline-block;
+    
 }
 
 .main-nav__item a {
