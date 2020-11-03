@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+header {
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 3.0rem;
+    color: aquamarine;
+}
+.ul {
+    color: aquamarine;
+    margin: 0.2rem;
+    font-size: 2.0rem;
+    display: inline-block;
+}
+.ul-li {
+    padding: 0.3rem;
+    display: inline-block;
+}
+
+.bloque {
+    width: 30vw;
+    height: 80vh;
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque-div {
+    background-color: yellowgreen;
+    width: 20rem;
+    height: 15rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+  
