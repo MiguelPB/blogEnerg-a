@@ -7,10 +7,19 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    display: grid;
+    grid-template-areas:    "header header"
+                            "aside main"
+                            "footer footer";
+
+}
 header {
-    background-color: sandybrown;
+    background-color: brown;
     display: flex;
     justify-content: space-between;
+    grid-area: header;
 }
 h1 {
     font-size: 3.0rem;
@@ -28,18 +37,33 @@ h1 {
 }
 
 .bloque {
-    width: 30vw;
+    width: 15vw;
     height: 80vh;
     background-color:grey;
+    grid-area: aside;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .bloque-div {
     background-color: yellowgreen;
-    width: 20rem;
+    width: 15rem;
     height: 15rem;
     margin: 0.5rem;
     padding: 0.2rem;
     border-radius: 0.3rem;
-  
+}
+
+.main {
+    background-color: indianred;
+    grid-area: main;
+    font-size: 2.0rem;
+    width: 85vw;
+}
+
+.footer {
+    background-color: mediumorchid;
+    font-size: 2.0rem;
+    grid-area: footer;
+}
