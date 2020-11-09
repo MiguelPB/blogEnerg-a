@@ -10,6 +10,16 @@
 </head>
 <body>
     <main>
+        <header>
+            <nav>
+                <ul class="main-nav">
+                    <li class="main-nav_item"><a href="">Home</a></li>
+                    <li class="main-nav_item"><a href="">Cursos</a></li>
+                    <li class="main-nav_item"><a href="">Instrutores</a></li>
+                    <li class="main-nav_item"><a href="">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
         <h1>Ahora está grande</h1>
         <ul>
             <li>caminando por la vereda</li>
@@ -54,22 +64,27 @@
             <option value="Ambiente"></option>
             <option value="Prana"></option>
         </datalist>
-        <header>
-            <nav>
-                <ul class="main-nav">
-                    <li class="main-nav__item"><a href="">Home</a></li>
-                    <li class="main-nav__item"><a href="">Cursos</a></li>
-                    <li class="main-nav__item"><a href="">Instrutores</a></li>
-                    <li class="main-nav__item"><a href="">Blog</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-  
+        <form action="">
+            <label for="Name">
+                <span>Cuál es tu nombre</span>
+                <input type="text" name="Nombre" id="Nombre"/>
+                <button type="submit">Enviar</button>
+            </label>
+        </form>
+        <form action="">
+            <label for="Calendario">
+                <span>Cuánd comenzaste a estudiar en Platzi?</span>
+                <input type="datetime-local" name="calendario" id="Calendario">
+            </label>
+        </form>
     </main>
 
     <p><a href="https://www.grupoioe.es/especialista-energias-renovables-alternativas/1598/?camp=2837&utm_source=google&utm_medium=cpc&utm_campaign=ES_DSA_TECNICOS_2020&gclid=CjwKCAjwq_D7BRADEiwAVMDdHnD3LnEcd8swUIGGxCsoDqQQJbozDsQjfY0noUUUHUuHHGmG-KCr1hoC14kQAvD_BwE" 
     target="_blank">Energía Renovable</a></p>
+
+    <ul class="container">
+        <li class="container_box"><a href="">Miguel</a></li>
+    </ul>
 
     
 </body>

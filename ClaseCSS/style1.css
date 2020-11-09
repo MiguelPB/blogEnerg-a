@@ -13,11 +13,13 @@ body {
     background-color: rgb(190, 252, 190);
 }
 
+section {
+    
+}
 
-
-h4 {
+.subtitulo {
     color: green;
-
+    font-size: 1.8rem;
 }
 
 h1 {
@@ -27,22 +29,23 @@ h1 {
     line-height: 70%;
 }
 
-h2 {
-
-    color: green;
-}
-
 p {
     text-align: center;
+    font-size: 2rem;
+}
+
+figure {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 figcaption {
     color: green;
-    font-size: 80%;
 }
 .main-nav {
     padding: 1rem;
-    
+    display: flex;
+    justify-content: space-evenly;  
 }
 
 .main-nav__item {
@@ -69,8 +72,4 @@ figcaption {
 
 .main-nav__item a::after {
     content: " | ";
-}
-
-main {
-    width: 100%;
 }
