@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    /*align-items: stretch;si le quitamos el tamaño que le hemos puesto a cada uno de los
+    contenedores box, con esta etiqueta los box tomarán el 100% de su contenedor padre*/
+    /*align-items: baseline; toma el tamaño del texto dentro del contenedor, siempre que
+    quitemos el tamaño que le hayamos puesto a las cajas*/
+}
+
+ .box {
+     height: 10rem;
+     border: solid red;
+     flex-basis: 10rem;
+     flex-grow: 1;
+ }
+
+ .box1 {
+     background-color: blue;
+     /*order: 6;*/
+     /*flex-grow: 1; la caja crece para ocupar el espacio q falta*/
+ }
+
+ .box2 {
+     background-color: blueviolet;
+     /*order: 1;*/
+     /*flex-grow: 1;*/
+ }
+
+ .box3 {
+     background-color: burlywood;
+ }
+  .box4 {
+      background-color: chartreuse;
+  }
+  .box5 {
+      background-color: crimson;
+  }
+  .box6 {
+      background-color: darkgoldenrod;
+  }
