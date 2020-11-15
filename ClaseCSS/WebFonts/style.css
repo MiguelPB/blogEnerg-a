@@ -1,0 +1,5 @@
+html {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+/*se busca la fuente desde google font y luego se copia el link en el head, luego es style de manda a llamar tal lo dice debajo del link, en la misma página*/
