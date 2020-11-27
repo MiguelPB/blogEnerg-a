@@ -1,0 +1,12 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+} /*rem lo utilizamos para que cuando alguien cambie el tamaño de fuente desde la configuracioin de su computadora,
+ nuestro texto pueda crecer junto con la fuente de su ordenador.
